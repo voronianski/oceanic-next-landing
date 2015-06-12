@@ -1,0 +1,26 @@
+{
+  "name": "oceanic-next-landing",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch-css": "cssnext cssnext/main.css styles.css --watch --verbose",
+    "build-css": "cssnext cssnext/main.css styles.min.css -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voronianski/oceanic-next-landing.git"
+  },
+  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voronianski/oceanic-next-landing/issues"
+  },
+  "homepage": "https://github.com/voronianski/oceanic-next-landing#readme",
+  "devDependencies": {
+    "cssnext": "^1.6.0"
+  },
+  "dependencies": {
+    "basscss": "^6.1.6"
+  }
+}

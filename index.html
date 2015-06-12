@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Oceanic Next Color Scheme</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+    <div class="container px1">
+        <h1 class="caps mb0">Oceanic Next Color Scheme</h1>
+        <h2 class="h4 mt1 regular ">Sublime Text 2/3 color scheme ready for ES6/ES7 and optimized for <a href="https://github.com/babel/babel-sublime" target="_blank">babel-sublime</a> package.</h2>
+        <hr class="mt2 mb1 b2 border-aqua" />
+
+        <div class="example px2 py1 rounded mt3 mb3">
+            <pre class="code m0"><span class="operator">import</span> React <span class="operator">from</span> <span class="punctuation">'</span><span class="string">react</span><span class="punctuation">'</span><span class="punctuation">;</span>
+
+<span class="comment">// This is comment...</span>
+<span class="keyword">class</span> <span class="support">MyComponent</span> <span class="keyword">extends</span> <span class="tag">React</span>.Component {
+    <span class="class-method">constructor</span><span class="operator">()</span> {
+        <span class="lang-method">super</span>()<span class="punctuation">;</span>
+
+        <span class="lang-method">this</span><span class="punctuation">.</span>state = {
+            <span class="string">title</span><span class="punctuation">:</span> <span class="punctuation">'</span><span class="string">World</span><span class="punctuation">'</span>
+        }<span class="punctuation">;</span>
+    }
+
+    <span class="class-method">clickHandler</span><span class="punctuation">(</span><span class="argument">name</span><span class="punctuation">)</span> {
+        <span class="lang-method">this</span><span class="punctuation">.</span><span class="method">setState</span>(name)<span class="punctuation">;</span>
+    }
+
+    <span class="class-method">render</span><span class="operator">()</span> {
+        <span class="keyword">let</span> { title } = <span class="lang-method">this</span><span class="punctuation">.</span>state<span class="punctuation">;</span>
+
+        <span class="keyword">return</span> (
+            <span class="punctuation">&lt;</span><span class="tag">div</span><span class="punctuation">&gt;</span>
+                <span class="punctuation">&lt;</span><span class="tag"><span class="tag">h1</span></span><span class="punctuation">&gt;</span>Hello, <span class="punctuation">{</span>title<span class="punctuation">}</span>!<span class="punctuation">&lt;/</span><span class="tag"><span class="tag">h1</span></span><span class="punctuation">&gt;</span>
+                <span class="punctuation">&lt;</span><span class="tag">button</span> <span class="keyword">onClick</span><span class="punctuation">={()</span> <span class="keyword">=></span> <span class="lang-method">this</span><span class="punctuation">.</span><span class="method">clickHandler</span>(<span class="punctuation">'</span><span class="string">React</span><span class="punctuation">'</span>)<span class="punctuation">}</span><span class="punctuation">&gt;</span>
+                    Change title
+                <span class="punctuation">&lt;/</span><span class="tag">button</span><span class="punctuation">&gt;</span>
+            <span class="punctuation">&lt;/</span><span class="tag">div</span><span class="punctuation">&gt;</span>
+        )<span class="punctuation">;</span>
+    }
+}
+
+<span class="operator">export default</span> MyComponent<span class="punctuation">;</span></pre>
+        </div>
+
+        <h2 id="Features" class="caps mt4">
+            <a href="#Features" class="black">Features</a>
+        </h2>
+        <hr class="mt1 mb1 b2 border-aqua" />
+
+        <h2 id="Palette" class="caps mt4">
+            <a href="#Palette" class="black">Color Palette</a>
+        </h2>
+        <hr class="mt1 mb1 b2 border-aqua" />
+
+        <h2 id="IDEs" class="caps mt4">
+            <a href="#IDEs" class="black">Other IDEs</a>
+        </h2>
+        <hr class="mt1 mb1 b2 border-aqua" />
+
+        <h2 id="Community" class="caps mt4">
+            <a href="#Community" class="black">Community</a>
+        </h2>
+        <hr class="mt1 mb1 b2 border-aqua" />
+    </div>
+</body>
+</html>
