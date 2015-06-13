@@ -1,5 +1,8 @@
 @import 'basscss';
 
+@import './palette.css';
+@import './code.css';
+
 @font-face {
     font-family: 'Akkurat';
     src: url('fonts/lineto-akkurat-regular.eot');
@@ -15,43 +18,15 @@
     border-width: 2px;
 }
 
-.example {
-    background-color: #1B2B34;
-    color: #DCE1EA;
-    cursor: default;
+.wrapper {
+    width: 820px;
 }
-.example pre {
-    font-size: 16px;
-    line-height: 22px;
-}
-.example .lang-method {
-    color: #EC5f67;
-    font-style: italic;
-}
-.example .keyword {
-    color: #C594C5;
-}
-.example .operator,
-.example .punctuation {
-    color: #5FB3B3;
-}
-.example .string {
-    color: #99C794;
-}
-.example .argument {
-    color: #F99157;
-}
-.example .method {
-    color: #6699CC;
-}
-.example .support {
-    color: #FAC863;
-}
-.example .tag {
-    color: #EC5f67;
-}
-.example .comment {
-    color: #65737E;
+
+@media (max-width: 820px) {
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 /* variables */
