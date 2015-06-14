@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>Get Oceanic Next Color Scheme</title>
 
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.min.css">
 </head>
 <body>
 
@@ -42,8 +42,8 @@
         <span class="support">console</span><span class="punctuation">.</span><span class="method">log</span>(<span class="punctuation">'</span><span class="string">MyComponent is mounted!</span><span class="punctuation">'</span>)<span class="punctuation">;</span>
     }
 
-    <span class="class-method">clickHandler</span><span class="punctuation">(</span><span class="argument">name</span><span class="punctuation">)</span> {
-        <span class="lang-method">this</span><span class="punctuation">.</span><span class="method">setState</span>(name)<span class="punctuation">;</span>
+    <span class="class-method">clickHandler</span><span class="punctuation">(</span><span class="argument">title</span><span class="punctuation">)</span> {
+        <span class="lang-method">this</span><span class="punctuation">.</span><span class="method">setState</span>({ title })<span class="punctuation">;</span>
     }
 
     <span class="class-method">render</span><span class="operator">()</span> {
