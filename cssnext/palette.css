@@ -1,6 +1,12 @@
 .palette {
     width: 570px;
 }
+@media (max-width: 570px) {
+    .palette {
+        width: 100%;
+    }
+}
+
 .palette .box {
     background-color: #eee;
     width: 60px;
