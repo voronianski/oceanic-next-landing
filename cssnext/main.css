@@ -32,6 +32,9 @@
     transform: rotate(45deg);
     z-index: 1;
 }
+.twitter-share-button {
+    margin-right: 10px;
+}
 
 .wrapper {
     width: 820px;
