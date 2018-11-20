@@ -1,38 +1,38 @@
 .example {
-    background-color: #1B2B34;
-    color: #D8DEE9;
-    cursor: default;
+  background-color: #1B2B34;
+  color: #D8DEE9;
+  cursor: default;
 }
 .example pre {
-    font-size: 16px;
-    line-height: 22px;
+  font-size: 16px;
+  line-height: 22px;
 }
 .example .lang-method {
-    color: #EC5f67;
-    font-style: italic;
+  color: #EC5f67;
+  font-style: italic;
 }
 .example .keyword {
-    color: #C594C5;
+  color: #C594C5;
 }
 .example .operator,
 .example .punctuation {
-    color: #5FB3B3;
+  color: #5FB3B3;
 }
 .example .string {
-    color: #99C794;
+  color: #99C794;
 }
 .example .argument {
-    color: #F99157;
+  color: #F99157;
 }
 .example .method {
-    color: #6699CC;
+  color: #6699CC;
 }
 .example .support {
-    color: #FAC863;
+  color: #FAC863;
 }
 .example .tag {
-    color: #EC5f67;
+  color: #EC5f67;
 }
 .example .comment {
-    color: #65737E;
+  color: #65737E;
 }
