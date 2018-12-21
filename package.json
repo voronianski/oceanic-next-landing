@@ -1,8 +1,7 @@
 {
   "name": "oceanic-next-landing",
-  "version": "0.1.0",
-  "description": "",
-  "main": "app.js",
+  "version": "1.0.0",
+  "description": "Landing page for Oceanic Next Color Scheme",
   "scripts": {
     "watch-css": "cssnext cssnext/main.css styles.css --watch --verbose",
     "build-css": "cssnext cssnext/main.css styles.min.css -c"
